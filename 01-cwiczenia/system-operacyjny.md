@@ -36,7 +36,10 @@
 
 | Charakterystyka           | wartość               | komentarzu                |
 | -------------             |:-------------:        | -----:                    |
-| nazwa                     | linux                 | centos 7                  |
+| nazwa | linux                 | centos 7                  |
+|konfiguracja ip       |                 |
+|Tablica rootingu      |
+|Check nameservers(DNS) |$cat /etc/resolv.conf
 | cfg interfejsów           | centos 7 | /etc/sysconfig/network-scripts         |
 | program (parametry sieci) | niewiem               |                           |
 | ....                      | .....                 |                           |
@@ -46,11 +49,11 @@
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
-| Maska podsieci      |  |  |
-| Brama      |  |  |
-| DNS 1      |  |  |
-| DNS 2      |  |  |
+| Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
+| Maska podsieci     | 10.0.2.15/24 | 255.255.255.0 |
+| Brama      |10.0.2.2  |  |default from rooting| 
+| DNS 1      |10.10.0.8 |  |
+| DNS 2      |10.10.0.4 |  |
 
 ### Schemat sieci
 
