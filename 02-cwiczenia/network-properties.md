@@ -2,7 +2,7 @@
 
 ### Zadania
 
-0. Z wykorzystaniem dowolnych systemów operacyjnych na których potrafisz uruchomić interpreter ``python`` oraz oprogramowania virtualbox odwzoruj poniższy schemat sieci:
+0. interpreter ``python`` oraz oprogramowania virtualbox odwzoruj poniższy schemat sieci:
 
 ![alt text][network]
 
