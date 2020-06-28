@@ -18,37 +18,37 @@
    * Windows 
 
 2. Sprawdź oraz przygotuj charakterystykę dla przykładowego urządzenia w Twojej sieci domowej
-   * Adres
-   * Maska
-   * Adres bramy
-   * DNS 1
-   * DNS 2
+   * Adres  198.168.1.4
+   * Maska  255.255.255.0
+   * Adres bramy  192.168.1.1
+   * DNS 1  10.9.8.7
+   * DNS 2  8.8.8.8
   
-    Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
+    Dokumentacja graficzna sieci domowej, adresy i urządzenia
 
 
 ### Charakterystyka systemu operacyjnego
 
 | Charakterystyka           | wartość               | komentarzu                |
 | -------------             |:-------------:        | -----:                    |
-| nazwa | linux                 | centos 7                  |
-|konfiguracja ip       |                 |
-|Tablica rootingu      |
-|Check nameservers(DNS) |$cat /etc/resolv.conf
+| nazwa                     | linux                 | centos 7                  |
 | cfg interfejsów           | centos 7 | /etc/sysconfig/network-scripts         |
 | program (parametry sieci) | niewiem               |                           |
 | ....                      | .....                 |                           |
-
+| nazwa                     | Alpine Linux          |                           |
+| Konfiguracja ip           | ``$ ip all ``         | show all eth interfaces   | 
+| Tablica routingu          | ``$ ip route show ``  | what is gateway?!         | 
+| check nameservers (DNS)   | ``$ cat /etc/resolv.conf ``  | which DNS were set | 
 
 ### Konfiguracja połączenia sieciowego
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
-| Maska podsieci     | 10.0.2.15/24 | 255.255.255.0 |
-| Brama      |10.0.2.2  |  |default from rooting| 
-| DNS 1      |10.10.0.8 |  |
-| DNS 2      |10.10.0.4 |  |
+| Adres IP      | 10.0.2.15        | przydzielony przez DHCP |
+| Maska podsieci| 10.0.2.15/**24** | **255.255.255.0**    |
+| Brama         | 10.0.2.2         | default from route table |
+| DNS 1         | 10.9.8.7         | cat /etc/resolv.conf     |
+| DNS 2         | 1.1.1.1          | nslookup "adres strony np. .pl, .com. etc.|
 
 ### Schemat sieci
 
