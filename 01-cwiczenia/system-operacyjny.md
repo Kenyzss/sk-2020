@@ -26,11 +26,6 @@
   
     Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
 
-3. Zarejestruj konto w CISCO Academy celem pobrania Packet tracer
-   https://www.netacad.com/courses/packet-tracer
-
-4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać? :)
-
 
 ### Charakterystyka systemu operacyjnego
 
